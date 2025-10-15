@@ -23,12 +23,13 @@
 |||
 |:------------|:------------|
 |**Group Project Task:**|School Enrollment and Performance Dashboard|
-|**Main tool considered**|CockroachCloud|
+|**Main tools considered:**|CockroachCloud (Querying)|
+||Python petl (ETL procedures)|
 |**Possible Alternatives:**||
 |BigQuery|Limited access; last resort|
 |DataBricks|Possible alternative|
 |Amazon Redshift|Limited free trial range (14 days)|
 |**Visualization Tools:**||
 |PowerBI|Most likely option|
-|Python Libraries|Any plotting libraries.|
+|Python Libraries|Any plotting libraries|
 |||
