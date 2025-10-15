@@ -2,7 +2,7 @@
 
 =======
 
-Group Monobloc Members:
+<b>Group Monobloc Members:</b>
 - Barreno, Lance Kenneth
 - Imamura, Hiro Andrei
 - Ogues, Juancho Miguel
@@ -10,3 +10,16 @@ Group Monobloc Members:
 - BSCS - J4A
 
 <br>
+
+<b>Group Project Task:</b> 
+- School Enrollment and Performance Dashboard
+<br>
+
+<b>Main tool considered:</b>
+- CockroachCloud
+<br>
+
+<b>Possible Alternatives:</b>
+- BigQuery - Limited access; last resort
+- DataBricks - Possible alternative
+- Amazon Redshift - Limited free trial range (14 days)
