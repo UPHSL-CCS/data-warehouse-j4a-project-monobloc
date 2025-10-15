@@ -2,24 +2,33 @@
 
 =======
 
-<b>Group Monobloc Members:</b>
-- Barreno, Lance Kenneth
-- Imamura, Hiro Andrei
-- Ogues, Juancho Miguel
-- Sacdalan, Juan Paulo
-- BSCS - J4A
+|<b>Objectives:</b>|
+|:------------|
+|Implement and analyze data warehouse optimization techniques using Google BigQuery.|
+|Apply partitioning, clustering, and materialized views to improve query performance.|
+|Demonstrate version-controlled collaboration through GitHub Classroom.|
 
-<br>
+=======
 
-<b>Group Project Task:</b> 
-- School Enrollment and Performance Dashboard
-<br>
+|<b>Group Monobloc Members:</b>|
+|:------------|
+|Barreno, Lance Kenneth|
+|Imamura, Hiro Andrei|
+|Ogues, Juancho Miguel|
+|Sacdalan, Juan Paulo|
 
-<b>Main tool considered:</b>
-- CockroachCloud
-<br>
 
-<b>Possible Alternatives:</b>
-- BigQuery - Limited access; last resort
-- DataBricks - Possible alternative
-- Amazon Redshift - Limited free trial range (14 days)
+=======
+
+|||
+|:------------|:------------|
+|**Group Project Task:**|School Enrollment and Performance Dashboard|
+|**Main tool considered**|CockroachCloud|
+|**Possible Alternatives:**||
+|BigQuery|Limited access; last resort|
+|DataBricks|Possible alternative|
+|Amazon Redshift|Limited free trial range (14 days)|
+|**Visualization Tools:**||
+|PowerBI|Most likely option|
+|Python Libraries|Any plotting libraries.|
+|||
