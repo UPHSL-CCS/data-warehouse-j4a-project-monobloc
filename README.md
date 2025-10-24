@@ -9,13 +9,13 @@
 ## Title & Executive Summary
 
 ### **Title**
-**University Academic Health Monitor**
+**School Enrollment and Performance Dashboard**
 
 ### **Project Goal**
-To build a live, interactive dashboard tracking enrollment trends and academic performance, enabling data-driven curriculum planning.
+A university wants to track enrollment and academic performance trends to improve curriculum planning and identify struggling departments. To build a live, interactive dashboard tracking enrollment trends and academic performance, enabling data-driven curriculum planning.
 
 ### **Technical Stack**
-
+PETL (ETL) → CockroachDB (Database) → Apache Superset (BI)
 
 ### **Feasibility Verdict**
 **Highly Feasible.**  
