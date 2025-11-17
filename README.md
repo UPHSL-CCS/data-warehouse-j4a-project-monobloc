@@ -15,7 +15,7 @@
 A university wants to track enrollment and academic performance trends to improve curriculum planning and identify struggling departments. To build a live, interactive dashboard tracking enrollment trends and academic performance, enabling data-driven curriculum planning.
 
 ### **Technical Stack**
-PETL (ETL) → CockroachDB (Database) → Apache Superset (BI)
+PETL (ETL) → DataBricks (Datawarehousing) → Apache Superset (BI)
 
 ### **Feasibility Verdict**
 **Highly Feasible.**  
@@ -23,7 +23,7 @@ The open-source, free-tier stack provides a scalable, live, and shareable soluti
 
 ---
 
-## The Data Pipeline — PETL to CockroachDB
+## The Data Pipeline — PETL to DataBricks
 
 **Purpose:**  
 To ingest raw, public academic data and load a clean, analytical schema into a resilient database.
@@ -41,18 +41,18 @@ To ingest raw, public academic data and load a clean, analytical schema into a r
 
 ---
 
-## Data Warehouse Implementation & Optimization (CockroachDB)
+## Data Warehouse Implementation & Optimization (DataBricks)
 
 **Objective:**  
-Design and optimize CockroachDB (CRDB) to function as the analytical presentation layer (DW).
+Design and optimize DataBricks to function as the analytical presentation layer (DW).
 
 ### 1. Data Warehouse Architecture
 
 | Layer | Tool | Role in DW Architecture |
 |-------|------|--------------------------|
 | Source | CSV/Kaggle Files | Raw input files (Enrollment, Grades) |
-| Integration/ETL | PETL (Python) | Cleansing, transformation, and dimensional key creation (using CockroachDB's UUID primary keys) |
-| Presentation (DW) | CockroachDB | Stores the final dimensional (Star) schema; utilized by Superset for live querying |
+| Integration/ETL | PETL (Python) | Cleansing, transformation, and dimensional key creation (using DataBricks's UUID primary keys) |
+| Presentation (DW) | DataBricks | Stores the final dimensional (Star) schema; utilized by Superset for live querying |
 
 ---
 
@@ -69,7 +69,7 @@ Design and optimize CockroachDB (CRDB) to function as the analytical presentatio
 
 ### 3. Performance Optimization Techniques
 
-| Technique | CockroachDB Implementation | Goal |
+| Technique | DataBricks Implementation | Goal |
 |------------|-----------------------------|------|
 | **Indexing** | Secondary Indexes on frequently queried dimension attributes (e.g., `dim_student.major`, `dim_course.department_name`) and all Foreign Keys. | Accelerate lookups (JOINs) from fact to dimension tables. |
 | **Time-Series Partitioning** | `PARTITION BY RANGE` (on `enrollment_date` or `semester_id`). | Improve performance by scanning only relevant time periods (e.g., "last 3 semesters"). |
@@ -115,7 +115,7 @@ Design and optimize CockroachDB (CRDB) to function as the analytical presentatio
 | Alternative | Free Tier | Pros | Cons |
 |--------------|------------|------|------|
 | **PostgreSQL (Self-Managed)** | Open Source | Rock-solid SQL engine; free forever. | No managed cloud tier; manual setup and replication required. |
-| **YugabyteDB** | Open Source | Fully distributed SQL with Postgres compatibility. | Steeper setup; more complex cluster management than CockroachDB Cloud Free Tier. |
+| **YugabyteDB** | Open Source | Fully distributed SQL with Postgres compatibility. | Steeper setup; more complex cluster management than DataBricks Cloud Free Tier. |
 
 ---
 
@@ -126,7 +126,7 @@ Design and optimize CockroachDB (CRDB) to function as the analytical presentatio
 | **Power BI Free Desktop** | Free | Industry-leading data modeling; high visual polish. | No free web sharing/refresh; Pro license required for publishing. |
 | **Metabase** | Open Source | Extremely easy UI for non-technical reporting. | Limited visualization options vs. Superset. |
 | **Tableau Public** | Free Cloud | Best-in-class visualization and storytelling. | No live database connection (only static extracts). |
-| **Looker Studio (Google)** | Free Cloud | Easy sharing; seamless with Google Sheets/Analytics. | Complex CockroachDB connectivity; requires JDBC/ODBC middleware. |
+| **Looker Studio (Google)** | Free Cloud | Easy sharing; seamless with Google Sheets/Analytics. | Complex DataBricks connectivity; requires JDBC/ODBC middleware. |
 
 ---
 
@@ -135,7 +135,7 @@ Design and optimize CockroachDB (CRDB) to function as the analytical presentatio
 **Apache Superset** is the optimal BI choice.  
 It uniquely delivers:
 - Robust visualization features  
-- Live CockroachDB querying  
+- Live DataBricks querying  
 - Unrestricted free web sharing  
 
 Essential for a successful and scalable University Performance Dashboard demo.
