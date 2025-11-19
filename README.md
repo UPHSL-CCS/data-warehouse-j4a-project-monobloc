@@ -15,7 +15,7 @@
 A university wants to track enrollment and academic performance trends to improve curriculum planning and identify struggling departments. To build a live, interactive dashboard tracking enrollment trends and academic performance, enabling data-driven curriculum planning.
 
 ### **Technical Stack**
-PETL (ETL) → DataBricks (Datawarehousing) → Apache Superset (BI)
+PySpark → DataBricks (Datawarehousing) → PowerBi
 
 ### **Feasibility Verdict**
 **Highly Feasible.**  
@@ -23,7 +23,7 @@ The open-source, free-tier stack provides a scalable, live, and shareable soluti
 
 ---
 
-## The Data Pipeline — PETL to DataBricks
+## The Data Pipeline — PySpark to DataBricks
 
 **Purpose:**  
 To ingest raw, public academic data and load a clean, analytical schema into a resilient database.
@@ -132,11 +132,12 @@ Design and optimize DataBricks to function as the analytical presentation layer 
 
 ## **Final Conclusion**
 
-**Apache Superset** is the optimal BI choice.  
+**Power Bi** is the optimal BI choice.  
 It uniquely delivers:
-- Robust visualization features  
-- Live DataBricks querying  
-- Unrestricted free web sharing  
+- Seamless connectivity 
+- Supports logical schema  
+- Free desktop version
+- in-depth customizability options
 
 Essential for a successful and scalable University Performance Dashboard demo.
 
