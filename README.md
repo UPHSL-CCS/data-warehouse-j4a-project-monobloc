@@ -145,20 +145,37 @@ Essential for a successful and scalable University Performance Dashboard demo.
 
 # Part 2
 ## Objectives:
+#### Design and implement a data warehouse using a preferred Data Warehousing tool.
+#### Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
+#### Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
+#### Implement a data warehouse schema, including:
+#### Fact and Dimension tables
+#### Primary and Foreign Key relationships
+#### Perform ETL or ELT processes and data quality and governance.
+#### Demonstrate collaborative development and version control through GitHub Classroom.
+
+## Goal for Finals:
+
+#### For the finals submission, each group must accomplish the following:
+#### Implement the end to end warehouse requirements.
+#### Present the data warehouse implementation:
+
+## Objectives
 ---
-### Design and implement a data warehouse using a preferred Data Warehousing tool.
+### Chosen business problem
+
+## School Enrollment and Performance Dashboard
+
+### A university wants to track enrollment and academic performance trends to improve curriculum planning and identify struggling departments.
+
+#### Business Questions
+●	Which programs have the highest and lowest enrollment over the past 5 years?
+
+●	What’s the pass rate per course or department?
+
+●	Are there gender-based or year-level performance trends?
+
 ---
-### Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
----
-### Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
----
-### Implement a data warehouse schema, including:
----
-### Fact and Dimension tables
----
-### Primary and Foreign Key relationships
----
-### Perform ETL or ELT processes and data quality and governance.
----
-### Demonstrate collaborative development and version control through GitHub Classroom.
----
+### Implemented tools and technologies
+
+### Challenges encountered
