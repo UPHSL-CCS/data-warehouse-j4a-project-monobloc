@@ -231,8 +231,21 @@ Essential for a successful and scalable University Performance Dashboard demo.
 
 ### Challenges encountered
 
+The Primary Challenge: Compliance with Philippine Data Privacy Laws
 
+***Data Privacy Act of 2012 (RA 10173)***: Strict regulations protecting student information, including grades and academic records, making real data inaccessible for public projects
 
+***Institutional Policies***: Local universities and colleges have stringent data governance protocols preventing sharing of actual student performance data
+
+The Secondary Challenge: Data visualization limitations and pivoting 
+
+Initial Tool Rejection & Constraints: 
+
+***Apache Superset*** required significant technical expertise and customization beyond available resources
+
+***Preset*** is less intuitive that other data visualization tools, and encountered so much errors during trial period
+
+***Google Looker*** has insufficient capabilities for complex academic calculations and slower response time
 
 
 
