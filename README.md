@@ -5,7 +5,7 @@
 # University Performance Dashboard: Feasibility Analysis
 
 ---
-
+# Part 1
 ## Title & Executive Summary
 
 ### **Title**
@@ -142,3 +142,22 @@ It uniquely delivers:
 Essential for a successful and scalable University Performance Dashboard demo.
 
 ---
+
+# Part 2
+## Objectives:
+---
+Design and implement a data warehouse using a preferred Data Warehousing tool.
+
+Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
+
+Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
+
+Implement a data warehouse schema, including:
+
+Fact and Dimension tables
+
+Primary and Foreign Key relationships
+
+Perform ETL or ELT processes and data quality and governance.
+
+Demonstrate collaborative development and version control through GitHub Classroom.
