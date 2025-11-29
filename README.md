@@ -145,24 +145,31 @@ Essential for a successful and scalable University Performance Dashboard demo.
 
 # Part 2
 ## Objectives:
-#### Design and implement a data warehouse using a preferred Data Warehousing tool.
-#### Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
-#### Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
-#### Implement a data warehouse schema, including:
-#### Fact and Dimension tables
-#### Primary and Foreign Key relationships
-#### Perform ETL or ELT processes and data quality and governance.
-#### Demonstrate collaborative development and version control through GitHub Classroom.
+●	Design and implement a data warehouse using a preferred Data Warehousing tool.
 
+●	Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
+
+●	Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
+
+●	Implement a data warehouse schema, including:
+
+●	Fact and Dimension tables
+
+●	Primary and Foreign Key relationships
+
+●	Perform ETL or ELT processes and data quality and governance.
+
+●	Demonstrate collaborative development and version control through GitHub Classroom.
+
+---
 ## Goal for Finals:
 
-#### For the finals submission, each group must accomplish the following:
-#### Implement the end to end warehouse requirements.
-#### Present the data warehouse implementation:
+●	For the finals submission, each group must accomplish the following:
+-	Implement the end to end warehouse requirements.
+-	Present the data warehouse implementation:
 
-## Objectives
+
 ---
-### Chosen business problem
 
 ## School Enrollment and Performance Dashboard
 
@@ -170,10 +177,15 @@ Essential for a successful and scalable University Performance Dashboard demo.
 
 #### Business Questions
 ●	Which programs have the highest and lowest enrollment over the past 5 years?
+- Analysis of the five-year enrollment trend identifies a dominant preference for two academic units: Business and Accountancy and Engineering and Architecture. Together, these departments represent a substantial portion of the university's student population, indicating a market-driven alignment of student interests and the institution's program offerings
+- While the university boasts strength in high-demand fields, The Maritime and Aviation programs represent a niche but specialized segment of our academic portfolio. Their consistently lower enrollment figures over the past five years present a strategic consideration for targeted recruitment, enhanced marketing, or program review to explore potential for growth
 
 ●	What’s the pass rate per course or department?
+- The mid-tier passing rates of high-enrollment programs like Business and Engineering suggest that student choice is driven by career prospects, not academic ease. Conversely, Maritime's low enrollment and low pass rate indicate a challenging cycle where small size and lower success may reinforce each other, requiring targeted support.
 
 ●	Are there gender-based or year-level performance trends?
+- Students generally perform higher in lower year levels, and performance gradually declines as academic difficulty increases. This indicates increasing curricular rigor, course load, or potential support gaps in upper years.
+- Male students consistently perform slightly higher than females across all year levels, but the gaps are extremely small (ranging from 0.02 to 0.12 points). These differences are not large enough to indicate any meaningful gender-based performance trend. Both genders follow the same pattern of gradual grade decline through higher years.
 
 ---
 ### Implemented tools and technologies
