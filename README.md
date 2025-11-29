@@ -146,19 +146,19 @@ Essential for a successful and scalable University Performance Dashboard demo.
 # Part 2
 ## Objectives:
 ---
-Design and implement a data warehouse using a preferred Data Warehousing tool.
+### Design and implement a data warehouse using a preferred Data Warehousing tool.
 ---
-Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
+### Apply and analyze optimization techniques (e.g., indexing, partitioning, caching) to improve performance.
 ---
-Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
+### Develop a complete data warehouse architecture covering the source, integration, and presentation layers. 
 ---
-Implement a data warehouse schema, including:
+### Implement a data warehouse schema, including:
 ---
-Fact and Dimension tables
+### Fact and Dimension tables
 ---
-Primary and Foreign Key relationships
+### Primary and Foreign Key relationships
 ---
-Perform ETL or ELT processes and data quality and governance.
+### Perform ETL or ELT processes and data quality and governance.
 ---
-Demonstrate collaborative development and version control through GitHub Classroom.
+### Demonstrate collaborative development and version control through GitHub Classroom.
 ---
